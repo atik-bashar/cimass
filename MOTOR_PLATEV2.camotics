@@ -1,0 +1,46 @@
+{
+      "units": "metric",
+      "resolution-mode": "high",
+      "resolution": 1,
+      "tools": {
+        "1": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 40,
+          "diameter": 50,
+          "description": ""
+        },
+        "2": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 30,
+          "diameter": 10,
+          "description": ""
+        },
+        "3": {
+          "units": "metric",
+          "shape": "conical",
+          "length": 3,
+          "diameter": 6,
+          "description": ""
+        },
+        "4": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 50,
+          "diameter": 6.6,
+          "description": ""
+        }
+      },
+      "workpiece": {
+        "automatic": false,
+        "margin": 5,
+        "bounds": {
+          "min": [0, 0, -20],
+          "max": [100, 80, 0]
+        }
+      },
+      "files": [
+        "MOTOR_PLATE.nc"
+      ]
+    }
